@@ -10,12 +10,25 @@
   │     data. Move them freely.                                              │
   │   · Stat cards use <picture> so they follow the reader's light/dark       │
   │     theme. If you change one URL's colors, change the sibling too.        │
+  │   · assets/banner.svg and assets/div-*.svg are generated -- edit          │
+  │     tools/banner_svg.py or tools/divider_svg.py and re-run them, not      │
+  │     the SVGs. The banner's rain is seeded, so output is reproducible.     │
+  │   · Section labels live inside the rules, which is why there are no       │
+  │     markdown headings here.                                              │
   └──────────────────────────────────────────────────────────────────────────┘
 -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=2EA043&center=true&vCenter=true&width=720&height=42&lines=Software+Architect+%40+Architecht;Enterprise+architecture+%C2%B7+AI+agents+%C2%B7+distributed+systems;Occasionally+writes+kernels+for+fun" alt="Software Architect @ Architecht — enterprise architecture, AI agents, distributed systems" />
+<img src="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/banner.svg"
+     alt="Omercan Sabun — Software Architect. Enterprise architecture, AI agents, distributed systems."
+     width="900">
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/divider.svg" alt="" width="900">
 
 </div>
 
@@ -29,6 +42,12 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/div-projects.svg" alt="" width="900">
+
+</div>
+
+<div align="center">
+
 <a href="https://github.com/omercsbn/CLKernel"><img src="https://img.shields.io/badge/CLKernel-0D1117?style=flat-square&logo=c&logoColor=2EA043&labelColor=0D1117" alt="CLKernel"></a>
 <a href="https://github.com/omercsbn/vega"><img src="https://img.shields.io/badge/vega-0D1117?style=flat-square&logo=rust&logoColor=2EA043&labelColor=0D1117" alt="vega"></a>
 <a href="https://github.com/omercsbn/hebbian"><img src="https://img.shields.io/badge/hebbian-0D1117?style=flat-square&logo=rust&logoColor=2EA043&labelColor=0D1117" alt="hebbian"></a>
@@ -36,6 +55,12 @@
 <a href="https://github.com/omercsbn/shawzify"><img src="https://img.shields.io/badge/shawzify-0D1117?style=flat-square&logo=python&logoColor=2EA043&labelColor=0D1117" alt="shawzify"></a>
 <a href="https://github.com/omercsbn/algoviz-platform"><img src="https://img.shields.io/badge/algoviz--platform-0D1117?style=flat-square&logo=typescript&logoColor=2EA043&labelColor=0D1117" alt="algoviz-platform"></a>
 <a href="https://github.com/omercsbn?tab=repositories"><img src="https://img.shields.io/badge/all%20repositories-0D1117?style=flat-square&logo=github&logoColor=2EA043&labelColor=0D1117" alt="All repositories"></a>
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/div-stats.svg" alt="" width="900">
 
 </div>
 
@@ -56,6 +81,12 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omercsbn/omercsbn/output/snake-dark.svg">
   <img src="https://raw.githubusercontent.com/omercsbn/omercsbn/output/snake-light.svg" alt="Contribution grid, eaten by a snake" width="860">
 </picture>
+
+</div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/div-contact.svg" alt="" width="900">
 
 </div>
 

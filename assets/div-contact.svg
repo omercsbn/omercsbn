@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="36" viewBox="0 0 900 36" role="presentation">
+  <defs>
+    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2EA043" stop-opacity="0"/>
+      <stop offset="35%"  stop-color="#2EA043" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2EA043" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="rn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2EA043" stop-opacity="0.6"/>
+      <stop offset="65%"  stop-color="#2EA043" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2EA043" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#3FB950" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#3FB950" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#3FB950" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="40" y="17" width="349" height="1.4" fill="url(#ln)"/>
+  <rect x="511" y="17" width="349" height="1.4" fill="url(#rn)"/>
+
+  <!-- a packet running down the wire -->
+  <rect x="-180" y="16.2" width="180" height="3" rx="1.5" fill="url(#pulse)" opacity="0.85">
+    <animate attributeName="x" from="-180" to="900" dur="4.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="450" y="22" text-anchor="middle" font-size="13" letter-spacing="1.4"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#3FB950">~$ contact</text>
+
+  <g fill="#3FB950">
+    <rect x="375" y="16" width="3" height="3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.1s" begin="0s"   repeatCount="indefinite"/></rect>
+    <rect x="522" y="16" width="3" height="3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="0.9s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
