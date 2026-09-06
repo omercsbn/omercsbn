@@ -3,9 +3,10 @@
   │  omercsbn/omercsbn — GitHub profile README                               │
   │                                                                          │
   │  Editing notes:                                                          │
-  │   · The ASCII blocks are alignment-sensitive. Edit them in a monospace    │
-  │     editor and keep the trailing padding intact.                          │
-  │   · The bars under `cat ~/.stack` are a self-assessment, not measured     │
+  │   · The terminal GIF is recorded from tools/term/*.txt by the `terminal`  │
+  │     workflow. Edit the .txt sources -- pushing them re-records the GIF.    │
+  │     They are alignment-sensitive; keep the padding intact.                │
+  │   · The stack bars in that recording are a self-assessment, not measured  │
   │     data. Move them freely.                                              │
   │   · Stat cards use <picture> so they follow the reader's light/dark       │
   │     theme. If you change one URL's colors, change the sibling too.        │
@@ -18,34 +19,13 @@
 
 </div>
 
-```console
-$ neofetch
+<div align="center">
 
-     ╔══════════════════════╗     omercsbn@github
-     ║ ●   ●   ●            ║     ─────────────────────────────────────────────
-     ╟──────────────────────╢     Host ........ Architecht — Software Architect
-     ║                      ║     Kernel ...... enterprise-architecture
-     ║    ██▄               ║     Uptime ...... since Aug 2021
-     ║      ▀██▄            ║     Shell ....... rust · c# · java · c
-     ║        ▀██▄          ║     Packages .... 33 public repos
-     ║        ▄██▀          ║     DE .......... AI agents · agentic ops
-     ║      ▄██▀            ║     WM .......... distributed systems
-     ║    ██▀               ║     Terminal .... omercansabun.com
-     ║                      ║     Locale ...... Istanbul, TR — tr_TR.UTF-8
-     ║    ████████          ║     CPU ......... low-level systems @ 4.20GHz
-     ║                      ║     Memory ...... ████████████████░░░░  caffeine
-     ╚══════════════════════╝
-```
+<img src="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/terminal.gif"
+     alt="A terminal session: neofetch showing Omercan Sabun, Software Architect at Architecht in Istanbul; a stack breakdown across systems, enterprise, data/AI, web and infra; and current focus on Rust storage engines, agentic systems and low-level work."
+     width="860">
 
-```console
-$ cat ~/.stack
-
-  systems       rust · c · c++ · assembly        ████████████████░░░░
-  enterprise    c# · .net · java · grpc          ██████████████░░░░░░
-  data / ai     python · multi-agent rl · llms   ███████████░░░░░░░░░
-  web           typescript · react · next.js     █████████░░░░░░░░░░░
-  infra         kubernetes · docker · postgres   ████████░░░░░░░░░░░░
-```
+</div>
 
 <pre>
 $ ls -la ~/projects --sort=interesting
@@ -59,14 +39,6 @@ $ ls -la ~/projects --sort=interesting
 
  <a href="https://github.com/omercsbn?tab=repositories">...</a>                 26 more
 </pre>
-
-```console
-$ cat ~/.now
-
-  → distributed storage engines and query planners in Rust
-  → agentic systems that survive contact with production
-  → poking at kernels, schedulers and anything below the runtime
-```
 
 <div align="center">
 <br>

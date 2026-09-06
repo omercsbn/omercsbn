@@ -8,7 +8,7 @@ Set Shell bash
 Set FontFamily "JetBrains Mono"
 Set FontSize 14
 Set Width 860
-Set Height 620
+Set Height 580
 Set Padding 20
 Set BorderRadius 8
 Set WindowBar Colorful
