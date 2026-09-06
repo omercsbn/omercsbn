@@ -19,12 +19,6 @@
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#7CFFB0" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#7CFFB0" stop-opacity="0.65"/>
-      <stop offset="100%" stop-color="#7CFFB0" stop-opacity="0"/>
-    </linearGradient>
   </defs>
 
   <rect width="900" height="260" rx="10" fill="#010409"/>
@@ -142,18 +136,18 @@
   </g>
 
   <g filter="url(#glow)">
-    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-          font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3">Ömercan Sabun</text>
+    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">%^0*+*% +:&lt;0%<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0000;0.0250;1" calcMode="discrete" dur="10.0s" repeatCount="indefinite"/></text>
+    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">{+&gt;-0?/ Sa=&amp;+<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0250;0.0500;1" calcMode="discrete" dur="10.0s" repeatCount="indefinite"/></text>
+    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">%m|}c!/ Sa}0{<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0500;0.0750;1" calcMode="discrete" dur="10.0s" repeatCount="indefinite"/></text>
+    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">Öm%~c0% Sab}!<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.0750;0.1000;1" calcMode="discrete" dur="10.0s" repeatCount="indefinite"/></text>
+    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">Öm1#c&gt;? Sabun<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.1000;0.1250;1" calcMode="discrete" dur="10.0s" repeatCount="indefinite"/></text>
+    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">Öme{c+n Sabun<animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.1250;0.1500;1" calcMode="discrete" dur="10.0s" repeatCount="indefinite"/></text>
+    <text x="450" y="126" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">Ömercan Sabun<animate attributeName="opacity" values="0;1;1" keyTimes="0;0.1500;1" calcMode="discrete" dur="10.0s" repeatCount="indefinite"/></text>
   </g>
   <text x="450" y="158" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
         font-size="14" fill="#8FE9AE" letter-spacing="6.5">SOFTWARE ARCHITECT</text>
   <text x="450" y="186" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
         font-size="12" fill="#4E9E6B" letter-spacing="2">enterprise architecture · ai agents · distributed systems</text>
-
-  <!-- a bright line sweeps the wordmark, like a CRT refresh -->
-  <rect x="0" y="96" width="900" height="2" fill="url(#sweep)" opacity="0.9">
-    <animate attributeName="y" values="96;196;96" dur="7s" repeatCount="indefinite"/>
-  </rect>
 
   <rect x="0.5" y="0.5" width="899" height="259" rx="10" fill="none" stroke="#2EA043" stroke-opacity="0.45"/>
 </svg>

@@ -67,6 +67,51 @@ def rain():
             % (FONT, "".join(spans), -col_h, H + col_h, dur, begin))
     return "\n".join(parts)
 
+MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+
+
+NAME = "Ömercan Sabun"
+CYCLE = 10.0        # seconds per loop
+SCRAMBLE = 1.5      # how long the name spends resolving
+
+
+def wordmark():
+    """Layer the wordmark so it resolves out of noise, Matrix-style.
+
+    SMIL cannot animate text content, so every step of the decode is its own
+    <text> and the steps hand visibility to one another. Characters settle in a
+    seeded random order, which keeps the reveal reproducible without looking
+    mechanical.
+    """
+    rnd = random.Random(SEED + 1)
+    slots = [i for i, c in enumerate(NAME) if c != " "]
+    rnd.shuffle(slots)
+
+    steps = 6
+    per = len(slots) / float(steps)
+    frames = []
+    for k in range(steps):
+        settled = set(slots[:int(round(per * k))])
+        frames.append("".join(c if (c == " " or i in settled) else rnd.choice(CHARS)
+                              for i, c in enumerate(NAME)))
+    frames.append(NAME)
+
+    step = SCRAMBLE / steps
+    out = []
+    for k, txt in enumerate(frames):
+        if k < steps:
+            a, b = (k * step) / CYCLE, ((k + 1) * step) / CYCLE
+            keys, vals = "0;%.4f;%.4f;1" % (a, b), "0;1;0;0"
+        else:
+            keys, vals = "0;%.4f;1" % (SCRAMBLE / CYCLE), "0;1;1"
+        out.append(
+            '    <text x="450" y="126" text-anchor="middle" font-family="%s" '
+            'font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3" opacity="0">%s'
+            '<animate attributeName="opacity" values="%s" keyTimes="%s" calcMode="discrete" '
+            'dur="%.1fs" repeatCount="indefinite"/></text>'
+            % (MONO, "".join(xesc(c) for c in txt), vals, keys, CYCLE))
+    return chr(10).join(out)
+
 
 def build():
     return """<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Omercan Sabun - Software Architect">
@@ -90,12 +135,6 @@ def build():
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#7CFFB0" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#7CFFB0" stop-opacity="0.65"/>
-      <stop offset="100%" stop-color="#7CFFB0" stop-opacity="0"/>
-    </linearGradient>
   </defs>
 
   <rect width="{W}" height="{H}" rx="10" fill="#010409"/>
@@ -113,27 +152,21 @@ def build():
   </g>
 
   <g filter="url(#glow)">
-    <text x="{CX}" y="{NY}" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
-          font-size="42" font-weight="700" fill="#7CFFB0" letter-spacing="3">Ömercan Sabun</text>
+{WORDMARK}
   </g>
   <text x="{CX}" y="{SY}" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
         font-size="14" fill="#8FE9AE" letter-spacing="6.5">SOFTWARE ARCHITECT</text>
   <text x="{CX}" y="{TY}" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
         font-size="12" fill="#4E9E6B" letter-spacing="2">enterprise architecture · ai agents · distributed systems</text>
 
-  <!-- a bright line sweeps the wordmark, like a CRT refresh -->
-  <rect x="0" y="{BY}" width="{W}" height="2" fill="url(#sweep)" opacity="0.9">
-    <animate attributeName="y" values="{BY};{EY};{BY}" dur="7s" repeatCount="indefinite"/>
-  </rect>
-
   <rect x="0.5" y="0.5" width="{W1}" height="{H1}" rx="10" fill="none" stroke="#2EA043" stroke-opacity="0.45"/>
 </svg>
 """.replace("{RAIN}", rain()) \
+   .replace("{WORDMARK}", wordmark()) \
    .replace("{SCANS}", "\n".join('    <rect x="0" y="%d" width="%d" height="1"/>' % (y, W)
                                  for y in range(0, H, 4))) \
    .replace("{CX}", str(W // 2)).replace("{CY}", str(H // 2)) \
    .replace("{NY}", "126").replace("{SY}", "158").replace("{TY}", "186") \
-   .replace("{BY}", "96").replace("{EY}", "196") \
    .replace("{W1}", str(W - 1)).replace("{H1}", str(H - 1)) \
    .replace("{W}", str(W)).replace("{H}", str(H))
 
