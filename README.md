@@ -9,7 +9,6 @@
   │     data. Move them freely.                                              │
   │   · Stat cards use <picture> so they follow the reader's light/dark       │
   │     theme. If you change one URL's colors, change the sibling too.        │
-  │   · Search for TODO to find the optional bits left commented out.         │
   └──────────────────────────────────────────────────────────────────────────┘
 -->
 
@@ -101,12 +100,8 @@ $ cat ~/.contacts
 
 <a href="https://omercansabun.com"><img src="https://img.shields.io/badge/omercansabun.com-0D1117?style=for-the-badge&logo=firefoxbrowser&logoColor=2EA043&labelColor=0D1117" alt="Website"></a>
 <a href="https://github.com/omercsbn"><img src="https://img.shields.io/badge/@omercsbn-0D1117?style=for-the-badge&logo=github&logoColor=2EA043&labelColor=0D1117" alt="GitHub"></a>
-<!-- TODO: kendi LinkedIn kullanıcı adını yazıp bu satırın yorumunu kaldır
-<a href="https://linkedin.com/in/KULLANICI-ADIN"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=2EA043&labelColor=0D1117" alt="LinkedIn"></a>
--->
-<!-- TODO: herkese açık bir e-posta paylaşmak istersen
-<a href="mailto:SENIN@ADRESIN"><img src="https://img.shields.io/badge/email-0D1117?style=for-the-badge&logo=maildotru&logoColor=2EA043&labelColor=0D1117" alt="Email"></a>
--->
+<a href="https://www.linkedin.com/in/omercansabun/"><img src="https://img.shields.io/badge/in%2Fomercansabun-0D1117?style=for-the-badge&logo=linkedin&logoColor=2EA043&labelColor=0D1117" alt="LinkedIn"></a>
+<a href="mailto:omercansabun@icloud.com"><img src="https://img.shields.io/badge/omercansabun%40icloud.com-0D1117?style=for-the-badge&logo=icloud&logoColor=2EA043&labelColor=0D1117" alt="Email"></a>
 
 <br><br>
 
