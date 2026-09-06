@@ -85,10 +85,23 @@ def now(lines):
     return out
 
 
+def projects(lines):
+    out = []
+    for line in lines:
+        if not line.strip():
+            out.append(line)
+            continue
+        name, desc = line[:20], line[20:]
+        out.append(ACCENT + name + RESET + DIM + desc + RESET)
+    return out
+
+
 def main():
     if not os.path.isdir(OUT):
         os.makedirs(OUT)
-    for name, fn in [("neofetch", neofetch), ("stack", stack), ("now", now)]:
+    blocks = [("neofetch", neofetch), ("stack", stack),
+              ("now", now), ("projects", projects)]
+    for name, fn in blocks:
         src = os.path.join(HERE, name + ".txt")
         lines = io.open(src, encoding="utf-8").read().rstrip(chr(10)).split(chr(10))
         dst = os.path.join(OUT, name + ".ansi")

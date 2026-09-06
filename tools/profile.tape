@@ -8,7 +8,7 @@ Set Shell bash
 Set FontFamily "JetBrains Mono"
 Set FontSize 14
 Set Width 860
-Set Height 580
+Set Height 715
 Set Padding 20
 Set BorderRadius 8
 Set WindowBar Colorful
@@ -39,3 +39,8 @@ Type "cat ~/.now"
 Sleep 500ms
 Enter
 Sleep 3500ms
+
+Type "ls -la ~/projects --sort=interesting"
+Sleep 500ms
+Enter
+Sleep 4s

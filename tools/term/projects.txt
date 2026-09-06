@@ -1,0 +1,6 @@
+ CLKernel/           x86 OS kernel · AI supervision · hot-swappable modules
+ vega/               a PostgreSQL-compatible distributed SQL database, in Rust
+ hebbian/            bio-inspired learning — no backprop, no gradients, just neurons
+ credit-war/         multi-agent RL · 10 game-theoretic PPO agents · banking sim
+ shawzify/           audio & MIDI in, playable Warframe Shawzin codes out
+ algoviz-platform/   interactive algorithm & complexity visualizer

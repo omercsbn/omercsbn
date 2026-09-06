@@ -27,18 +27,17 @@
 
 </div>
 
-<pre>
-$ ls -la ~/projects --sort=interesting
+<div align="center">
 
- <a href="https://github.com/omercsbn/CLKernel">CLKernel/</a>           x86 OS kernel · AI supervision · hot-swappable modules
- <a href="https://github.com/omercsbn/vega">vega/</a>               a PostgreSQL-compatible distributed SQL database, in Rust
- <a href="https://github.com/omercsbn/hebbian">hebbian/</a>            bio-inspired learning — no backprop, no gradients, just neurons
- <a href="https://github.com/omercsbn/credit-war">credit-war/</a>         multi-agent RL · 10 game-theoretic PPO agents · banking sim
- <a href="https://github.com/omercsbn/shawzify">shawzify/</a>           audio &amp; MIDI in, playable Warframe Shawzin codes out
- <a href="https://github.com/omercsbn/algoviz-platform">algoviz-platform/</a>   interactive algorithm &amp; complexity visualizer
+<a href="https://github.com/omercsbn/CLKernel"><img src="https://img.shields.io/badge/CLKernel-0D1117?style=flat-square&logo=c&logoColor=2EA043&labelColor=0D1117" alt="CLKernel"></a>
+<a href="https://github.com/omercsbn/vega"><img src="https://img.shields.io/badge/vega-0D1117?style=flat-square&logo=rust&logoColor=2EA043&labelColor=0D1117" alt="vega"></a>
+<a href="https://github.com/omercsbn/hebbian"><img src="https://img.shields.io/badge/hebbian-0D1117?style=flat-square&logo=rust&logoColor=2EA043&labelColor=0D1117" alt="hebbian"></a>
+<a href="https://github.com/omercsbn/credit-war"><img src="https://img.shields.io/badge/credit--war-0D1117?style=flat-square&logo=python&logoColor=2EA043&labelColor=0D1117" alt="credit-war"></a>
+<a href="https://github.com/omercsbn/shawzify"><img src="https://img.shields.io/badge/shawzify-0D1117?style=flat-square&logo=python&logoColor=2EA043&labelColor=0D1117" alt="shawzify"></a>
+<a href="https://github.com/omercsbn/algoviz-platform"><img src="https://img.shields.io/badge/algoviz--platform-0D1117?style=flat-square&logo=typescript&logoColor=2EA043&labelColor=0D1117" alt="algoviz-platform"></a>
+<a href="https://github.com/omercsbn?tab=repositories"><img src="https://img.shields.io/badge/all%20repositories-0D1117?style=flat-square&logo=github&logoColor=2EA043&labelColor=0D1117" alt="All repositories"></a>
 
- <a href="https://github.com/omercsbn?tab=repositories">...</a>                 26 more
-</pre>
+</div>
 
 <div align="center">
 <br>
@@ -60,10 +59,6 @@ $ ls -la ~/projects --sort=interesting
 
 </div>
 
-```console
-$ cat ~/.contacts
-```
-
 <div align="center">
 
 <a href="https://omercansabun.com"><img src="https://img.shields.io/badge/omercansabun.com-0D1117?style=for-the-badge&logo=firefoxbrowser&logoColor=2EA043&labelColor=0D1117" alt="Website"></a>
@@ -73,6 +68,6 @@ $ cat ~/.contacts
 
 <br><br>
 
-<sub><code>omercsbn@github:~$ </code><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=4000&pause=800&color=2EA043&width=200&height=20&lines=exit;thanks+for+stopping+by" alt="exit"></sub>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=4000&pause=800&color=2EA043&width=430&height=24&lines=omercsbn%40github%3A~%24+exit;omercsbn%40github%3A~%24+thanks+for+stopping+by" alt="omercsbn@github:~$ exit">
 
 </div>
