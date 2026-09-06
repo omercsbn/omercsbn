@@ -1,0 +1,3 @@
+  → distributed storage engines and query planners in Rust
+  → agentic systems that survive contact with production
+  → poking at kernels, schedulers and anything below the runtime

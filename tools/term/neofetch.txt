@@ -1,0 +1,14 @@
+     ╔══════════════════════╗     omercsbn@github
+     ║ ●   ●   ●            ║     ─────────────────────────────────────────────
+     ╟──────────────────────╢     Host ........ Architecht — Software Architect
+     ║                      ║     Kernel ...... enterprise-architecture
+     ║    ██▄               ║     Uptime ...... since Aug 2021
+     ║      ▀██▄            ║     Shell ....... rust · c# · java · c
+     ║        ▀██▄          ║     Packages .... 33 public repos
+     ║        ▄██▀          ║     DE .......... AI agents · agentic ops
+     ║      ▄██▀            ║     WM .......... distributed systems
+     ║    ██▀               ║     Terminal .... omercansabun.com
+     ║                      ║     Locale ...... Istanbul, TR — tr_TR.UTF-8
+     ║    ████████          ║     CPU ......... low-level systems @ 4.20GHz
+     ║                      ║     Memory ...... ████████████████░░░░  caffeine
+     ╚══════════════════════╝

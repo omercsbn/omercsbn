@@ -145,8 +145,13 @@ def render(data, theme):
 
 
 def sync_readme(data):
-    """Keep the `Packages ....` line in the neofetch block honest."""
-    path = os.path.join(os.path.dirname(OUT_DIR), "README.md")
+    """Keep the `Packages ....` line in the recorded neofetch block honest.
+
+    Editing the source here rather than the README: the block now lives in the
+    terminal recording, and touching this file is what tells the terminal
+    workflow the GIF needs re-rendering.
+    """
+    path = os.path.join(os.path.dirname(OUT_DIR), "tools", "term", "neofetch.txt")
     count = dict(data["stats"])["public repos"]
     lines = io.open(path, encoding="utf-8").read().splitlines()
     changed = False
@@ -159,7 +164,7 @@ def sync_readme(data):
     if changed:
         with io.open(path, "w", encoding="utf-8", newline=chr(10)) as f:
             f.write(chr(10).join(lines) + chr(10))
-        print("synced README repo count -> %s" % count)
+        print("synced neofetch repo count -> %s" % count)
 
 
 def main():

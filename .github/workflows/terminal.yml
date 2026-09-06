@@ -1,0 +1,54 @@
+name: terminal
+
+# Records the terminal session in tools/profile.tape into assets/terminal.gif.
+# Deliberately not on the daily schedule: every render produces a fresh multi-MB
+# binary, so it runs only when the recorded content changes (plus a monthly
+# catch-up and on demand).
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 1 * *"
+  push:
+    branches: [main]
+    paths:
+      - "tools/term/**"
+      - "tools/profile.tape"
+      - ".github/workflows/terminal.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: terminal
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Colourise the blocks
+        run: python tools/term/render.py
+
+      - name: Record
+        uses: charmbracelet/vhs-action@v2.1.1
+        with:
+          path: tools/profile.tape
+
+      - name: Commit the recording
+        run: |
+          ls -lh assets/terminal.gif
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/terminal.gif
+          if git diff --staged --quiet; then
+            echo "recording unchanged"
+          else
+            git commit -m "chore: refresh terminal recording"
+            git push
+          fi

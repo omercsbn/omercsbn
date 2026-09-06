@@ -1,0 +1,5 @@
+  systems       rust · c · c++ · assembly        ████████████████░░░░
+  enterprise    c# · .net · java · grpc          ██████████████░░░░░░
+  data / ai     python · multi-agent rl · llms   ███████████░░░░░░░░░
+  web           typescript · react · next.js     █████████░░░░░░░░░░░
+  infra         kubernetes · docker · postgres   ████████░░░░░░░░░░░░
