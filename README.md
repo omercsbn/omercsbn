@@ -7,7 +7,71 @@
   │     editor and keep the trailing padding intact.                          │
   │   · The bars under `cat ~/.stack` are a self-assessment, not measured     │
   │     data. Move them freely.                                              │
-  │   · Stat cards use <picture>
+  │   · Stat cards use <picture> so they follow the reader's light/dark       │
+  │     theme. If you change one URL's colors, change the sibling too.        │
+  └──────────────────────────────────────────────────────────────────────────┘
+-->
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=2EA043&center=true&vCenter=true&width=720&height=42&lines=Software+Architect+%40+Architecht;Enterprise+architecture+%C2%B7+AI+agents+%C2%B7+distributed+systems;Occasionally+writes+kernels+for+fun" alt="Software Architect @ Architecht — enterprise architecture, AI agents, distributed systems" />
+
+</div>
+
+```console
+$ neofetch
+
+     ╔══════════════════════╗     omercsbn@github
+     ║ ●   ●   ●            ║     ─────────────────────────────────────────────
+     ╟──────────────────────╢     Host ........ Architecht — Software Architect
+     ║                      ║     Kernel ...... enterprise-architecture
+     ║    ██▄               ║     Uptime ...... since Aug 2021
+     ║      ▀██▄            ║     Shell ....... rust · c# · java · c
+     ║        ▀██▄          ║     Packages .... 33 public repos
+     ║        ▄██▀          ║     DE .......... AI agents · agentic ops
+     ║      ▄██▀            ║     WM .......... distributed systems
+     ║    ██▀               ║     Terminal .... omercansabun.com
+     ║                      ║     Locale ...... Istanbul, TR — tr_TR.UTF-8
+     ║    ████████          ║     CPU ......... low-level systems @ 4.20GHz
+     ║                      ║     Memory ...... ████████████████░░░░  caffeine
+     ╚══════════════════════╝
+```
+
+```console
+$ cat ~/.stack
+
+  systems       rust · c · c++ · assembly        ████████████████░░░░
+  enterprise    c# · .net · java · grpc          ██████████████░░░░░░
+  data / ai     python · multi-agent rl · llms   ███████████░░░░░░░░░
+  web           typescript · react · next.js     █████████░░░░░░░░░░░
+  infra         kubernetes · docker · postgres   ████████░░░░░░░░░░░░
+```
+
+<pre>
+$ ls -la ~/projects --sort=interesting
+
+ <a href="https://github.com/omercsbn/CLKernel">CLKernel/</a>           x86 OS kernel · AI supervision · hot-swappable modules
+ <a href="https://github.com/omercsbn/vega">vega/</a>               a PostgreSQL-compatible distributed SQL database, in Rust
+ <a href="https://github.com/omercsbn/hebbian">hebbian/</a>            bio-inspired learning — no backprop, no gradients, just neurons
+ <a href="https://github.com/omercsbn/credit-war">credit-war/</a>         multi-agent RL · 10 game-theoretic PPO agents · banking sim
+ <a href="https://github.com/omercsbn/shawzify">shawzify/</a>           audio &amp; MIDI in, playable Warframe Shawzin codes out
+ <a href="https://github.com/omercsbn/algoviz-platform">algoviz-platform/</a>   interactive algorithm &amp; complexity visualizer
+
+ <a href="https://github.com/omercsbn?tab=repositories">...</a>                 26 more
+</pre>
+
+```console
+$ cat ~/.now
+
+  → distributed storage engines and query planners in Rust
+  → agentic systems that survive contact with production
+  → poking at kernels, schedulers and anything below the runtime
+```
+
+<div align="center">
+<br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/stats-dark.svg">
   <img src="https://raw.githubusercontent.com/omercsbn/omercsbn/main/assets/stats-light.svg" alt="Stats and language breakdown" width="860">
 </picture>
