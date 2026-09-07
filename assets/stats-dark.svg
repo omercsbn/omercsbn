@@ -3,9 +3,9 @@
 <text x="22.0" y="40" fill="#6E7681" font-size="14" font-weight="400" xml:space="preserve">$ </text>
 <text x="38.8" y="40" fill="#3FB950" font-size="14" font-weight="600" xml:space="preserve">git stats --author=omercsbn</text>
 <text x="30.4" y="69" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">public repos ........</text>
-<text x="215.2" y="69" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve">33</text>
+<text x="215.2" y="69" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve">35</text>
 <text x="30.4" y="90" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">sources .............</text>
-<text x="215.2" y="90" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve">24 (9 forked)</text>
+<text x="215.2" y="90" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve">26 (9 forked)</text>
 <text x="30.4" y="111" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">stars earned ........</text>
 <text x="215.2" y="111" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve">3</text>
 <text x="30.4" y="132" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">followers ...........</text>
@@ -20,20 +20,20 @@
 <text x="719.6" y="69" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve"> 33.4%</text>
 <text x="448.4" y="90" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">Python</text>
 <rect x="557" y="81" width="150" height="8" rx="4" fill="#21262D"/>
-<rect x="557" y="81" width="31.4" height="8" rx="4" fill="#3FB950"/>
-<text x="719.6" y="90" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve"> 20.9%</text>
+<rect x="557" y="81" width="31.7" height="8" rx="4" fill="#3FB950"/>
+<text x="719.6" y="90" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve"> 21.1%</text>
 <text x="448.4" y="111" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">TypeScript</text>
 <rect x="557" y="102" width="150" height="8" rx="4" fill="#21262D"/>
-<rect x="557" y="102" width="26.7" height="8" rx="4" fill="#3FB950"/>
-<text x="719.6" y="111" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve"> 17.8%</text>
+<rect x="557" y="102" width="26.6" height="8" rx="4" fill="#3FB950"/>
+<text x="719.6" y="111" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve"> 17.7%</text>
 <text x="448.4" y="132" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">C</text>
 <rect x="557" y="123" width="150" height="8" rx="4" fill="#21262D"/>
-<rect x="557" y="123" width="15.2" height="8" rx="4" fill="#3FB950"/>
+<rect x="557" y="123" width="15.1" height="8" rx="4" fill="#3FB950"/>
 <text x="719.6" y="132" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve"> 10.1%</text>
 <text x="448.4" y="153" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">Rust</text>
 <rect x="557" y="144" width="150" height="8" rx="4" fill="#21262D"/>
-<rect x="557" y="144" width="14.8" height="8" rx="4" fill="#3FB950"/>
-<text x="719.6" y="153" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve">  9.9%</text>
+<rect x="557" y="144" width="14.7" height="8" rx="4" fill="#3FB950"/>
+<text x="719.6" y="153" fill="#C9D1D9" font-size="14" font-weight="600" xml:space="preserve">  9.8%</text>
 <text x="448.4" y="174" fill="#8B949E" font-size="14" font-weight="400" xml:space="preserve">C#</text>
 <rect x="557" y="165" width="150" height="8" rx="4" fill="#21262D"/>
 <rect x="557" y="165" width="4.3" height="8" rx="4" fill="#3FB950"/>
