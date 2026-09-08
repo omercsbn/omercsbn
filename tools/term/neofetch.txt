@@ -4,7 +4,7 @@
      ║                      ║     Kernel ...... enterprise-architecture
      ║    ██▄               ║     Uptime ...... since Aug 2021
      ║      ▀██▄            ║     Shell ....... rust · c# · java · c
-     ║        ▀██▄          ║     Packages .... 35 public repos
+     ║        ▀██▄          ║     Packages .... 34 public repos
      ║        ▄██▀          ║     DE .......... AI agents · agentic ops
      ║      ▄██▀            ║     WM .......... distributed systems
      ║    ██▀               ║     Terminal .... omercansabun.com
